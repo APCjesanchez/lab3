@@ -1,14 +1,14 @@
 #-------------------------
 # Operating Specific Junk Files
 #-------------------------
-#
+
 # OS X
-.DSStore
+.DS_Store
 .AppleDouble
 .LSOverride
 
 # OS X Thumbnails
-.*
+._*
 
 # Windows image file caches
 Thumbs.db
@@ -28,13 +28,13 @@ $RECYCLE.BIN/
 *.lnk
 
 # Linux
-~
+*~
 
 # KDE directory preferences
 .directory
 
 # Linux trash folder which might appear on any partition or disk
-.Trash-
+.Trash-*
 
 #-------------------------
 # Environment Files
@@ -63,15 +63,15 @@ writable/uploads/*
 writable/debugbar/*
 !writable/debugbar/.gitkeep
 
-writable//*.db
-writable//.sqlite
+writable/**/*.db
+writable/**/*.sqlite
 
 php_errors.log
 
 #-------------------------
 # User Guide Temp Files
 #-------------------------
-user_guide_src/build/
+user_guide_src/build/*
 
 #-------------------------
 # Test Files
@@ -116,7 +116,7 @@ nb-configuration.xml
 *.tmPreferences.cache
 *.stTheme.cache
 *.sublime-workspace
-.sublime-project
+*.sublime-project
 .phpintel
 /api/
 
@@ -124,7 +124,7 @@ nb-configuration.xml
 .vscode/
 
 /results/
-/phpunit.xml
+/phpunit*.xml
 /.phpunit.*.cache
 
 /.php-cs-fixer.php
