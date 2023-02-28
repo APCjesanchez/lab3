@@ -21,6 +21,7 @@
             <li><a href = "#hero">Home</a></li>
             <li><a href = "#content-about">About</a></li>
             <li><a href = "#content-references">References</a></li>
+            <li><a href = "guest">Register</a></li>
         <span id="time">
             <span id="hours">00</span>
             <span>:</span>
