@@ -23,7 +23,6 @@
             <li><a href = "/lab3/ci4/public/home#content-about">About</a></li>
             <li><a href = "/lab3/ci4/public/home#content-references">References</a></li>
             <li><a href = "/lab3/ci4/public/guest/create">Register</a></li>
-            <li><a href = "/lab3/ci4/public/guest">Members</a></li>
         <span id="time">
             <span id="hours">00</span>
             <span>:</span>
