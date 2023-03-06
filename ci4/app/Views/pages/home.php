@@ -11,28 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!--navigation tab-->
-    <div id="progress-bar"></div>
-    <div id="scroll-path"></div>
-   <div id="hero">
-    <nav>
-        <h2 id="logo">Johanne<span>Sanchez</span></h2>
-        <ul id="nav-tab">
-            <li><a href = "#hero">Home</a></li>
-            <li><a href = "#content-about">About</a></li>
-            <li><a href = "#content-references">References</a></li>
-            <li><a href = "index.php/guest/create">Register</a></li>
-            <li><a href = "guest">Members</a></li>
-        <span id="time">
-            <span id="hours">00</span>
-            <span>:</span>
-            <span id="minutes">00</span>
-            <span>:</span>
-            <span id="seconds">00</span>
-            <span id="session">AM</span>
-        </span>
-        </ul>
-    </nav>
 
     <!--content of the home tab-->
     <div id="page-content">
