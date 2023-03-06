@@ -52,7 +52,7 @@
     font-family: 'Chivo', sans-serif;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/img/background.png');
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/img/bg.png');
     background-size: cover;
     background-position: center;
 }
@@ -107,7 +107,7 @@ nav ul li a:hover {
     font-family: 'Chivo', sans-serif;
     width: 100%;
     padding: 100px 0px;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(img/background.png);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('/img/bg.png');
 }
 #content-about img {
     height: auto;
