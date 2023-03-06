@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     <?php echo link_tag('css/style.css'); ?>
+    <?php echo script_tag('js/main.js'); ?>
     <title>CodeIgniter Tutorial</title>
 </head>
 <body>
@@ -36,34 +37,5 @@
     <!--In this area of the javascript, I have already implemented loops, functions and HTML DOM in order to create an alarm clock that depended on the time zone of the device.-->
    <!--I have also implemented the camelCase for all functions or variables for better code readability-->
    <!--I have also implemented more "let" variables for the website to have better performance with ready to call variables-->
-   <script type="text/javascript">
-        let progress = document.getElementById('progress-bar')
-        let totalHeight = document.body.scrollHeight - window.innerHeight;
-        window.onscroll = function(){
-            let progressHeight = (window.pageYOffset / totalHeight) *  100;
-            progress.style.height = progressHeight + "%";
-        }
-        function displayTime(){
-            var dateTime = new Date();
-            var hrs = dateTime.getHours();
-            var min = dateTime.getMinutes();
-            var sec = dateTime.getSeconds();
-            var session = document.getElementById('session');
-            
-            if(hrs >= 12){
-                session.innerHTML = 'PM';
-            }else{
-                sessions.innerHTML = 'AM';
-            }
 
-            if (hrs > 12) {
-                hrs = hrs - 12;
-            }
-            
-            document.getElementById('hours').innerHTML = hrs;
-            document.getElementById('minutes').innerHTML = min;
-            document.getElementById('seconds').innerHTML = sec;
-        }
-        setInterval(displayTime, 10);
-   </script>
     
