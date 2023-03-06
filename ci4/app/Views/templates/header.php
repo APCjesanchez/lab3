@@ -1,7 +1,14 @@
 <!doctype html>
 <html>
-<head>
-<?php echo link_tag('css/style.css'); ?>
+<head>    
+    <script src="https://kit.fontawesome.com/f7d6092e35.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <?php echo link_tag('css/style.css'); ?>
     <title>CodeIgniter Tutorial</title>
 </head>
 <body>
@@ -26,7 +33,10 @@
         </span>
         </ul>
     </nav>
-    <script type="text/javascript">
+    <!--In this area of the javascript, I have already implemented loops, functions and HTML DOM in order to create an alarm clock that depended on the time zone of the device.-->
+   <!--I have also implemented the camelCase for all functions or variables for better code readability-->
+   <!--I have also implemented more "let" variables for the website to have better performance with ready to call variables-->
+   <script type="text/javascript">
         let progress = document.getElementById('progress-bar')
         let totalHeight = document.body.scrollHeight - window.innerHeight;
         window.onscroll = function(){
